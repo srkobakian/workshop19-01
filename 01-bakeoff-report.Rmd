@@ -20,7 +20,7 @@ ratings <- read_csv(here::here(filepath)) %>%
 
 # Overview
 
-Series `r params$series` premiered on `r min(ratings$uk_airdate)`, and had `r n_distinct(ratings$episode)` episodes.
+Series `r params$series` premiered on `r min(ratings$uk_airdate)`, and had `r n_distinct(ratings$episode)` episodes. Yay!
 
 # Ratings
 
